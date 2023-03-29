@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    gap: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <h3>Encontre no google:</h3>
+    <form action="https://www.google.com/search" method="get">
+        <label for="">O que  deseja procurar no google: </label>
+        <input type="text" id="q" name="q" placeholder="Digite aqui:" required >
+        <input type="submit" value="Pesquisar"><br><br>
+        <input type="text" name="primeiro-nome" placeholder="primeiro nome">
+        <input type="password" placeholder="password">
+        <br>
+        <br>
+        <label for="">Email</label>
+        <input type="mail" name="mail" autocomplete="off">
+
+        <input list="browser">
+        <datalist id="browser">
+            <option value="IE"></option>
+            <option value="firefox"></option>
+            <option value="chrome"></option>
+            <option value="opera"></option>
+            <option value="safari"></option>
+        </datalist>
+
+    </form>
+    <h1>Novo formulário tipo radio</h1>
+    <form action="http://www.exemplo.com">
+        <input type="text" name="primeiro-nome" placeholder="primeiro nome">
+        <input type="password" placeholder="password">
+        <br><br>
+        <label for="">Género:</label><br><br>
+        <input type="radio" name="genero" value="masculino" checked>Masculino<br>
+        <input type="radio" name="genero" value="feminino">Feminino<br>
+        <input type="radio" name="genero" value="other">Outro<br>
+        <input type="submit" value="Enviar" >
+    </form>
+
+</form>
+<h1>Novo formulário tipo checkbox</h1>
+<form action="http://www.exemplo.com">
+    <label for="">Meio de transporte:</label><br><br>
+    <input type="checkbox" name="veiculo1" value="carro" checked>Eu tenho um carro<br>
+    <input type="checkbox" name="veiculo2" value="mota">Eu tenho uma mota<br>
+    <input type="checkbox" name="veiculo3" value="bicicleta">Eu tenho uma bicicleta<br>
+    <input type="submit" value="Enviar" >
+</form>
+</body>
+</html>
