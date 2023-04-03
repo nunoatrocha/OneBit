@@ -7,4 +7,3 @@ let ageDiference = olderPersonAge - yougerPersonAge;
 alert(`${olderPersonName} tem ${olderPersonAge} anos.`);
 alert(`${yougerPersonName} tem ${yougerPersonAge} anos.`);
 alert(`A diferança de idades é: ${ageDiference} anos`);
-
