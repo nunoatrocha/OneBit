@@ -1,5 +1,5 @@
-let filaEspera = ["Nuno", "Alexandre", "Teles", "Rocha"];
-let opcao = 0;
+let filaEspera = [];
+let opcao = "";
 
 do {
   let pacientes = "";
