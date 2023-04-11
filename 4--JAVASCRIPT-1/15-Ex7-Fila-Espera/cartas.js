@@ -7,18 +7,20 @@ do {
     case "1":
       const novaCarta = prompt("Qual o nome da carta: ");
       baralho.unshift(novaCarta);
-      alert(baralho)
       break;
     case "2":
       const cartaRemovida = baralho.shift()
-      alert("A carra removida foi: " + cartaRemovida);
-      alert(baralho)
-      break
+      if (!cartaRemovida) {
+        alert('Não há nenhuma carta no baralho')
+      } else {
+        alert("A carra removida foi: " + cartaRemovida);
+      }
+      break;
     case "3":
-      alert("A encerrar!")
-      break
-      default:
-        alert("Não digitou a opção correta")
-        break
+      alert("A encerrar!");
+      break;
+    default:
+      alert("Não digitou a opção correta");
+      break;
   }
 } while (opcao !== "3")
